@@ -10,13 +10,9 @@
           </b-jumbotron>
         </b-col>
       </b-row>
-    </b-container>
-    
-    
-    <b-container>
       <b-row>
-        <b-col v-for="contactInfo in contact" :key="contactInfo.id" xl="6">
-          <contact-card :name="contactInfo.name" :value="contactInfo.value"/>
+        <b-col v-for="contactInfo in contact" :key="contactInfo.id" xl="4">
+          <contact-card :name="contactInfo.name" :value="contactInfo.value" :is-link="contactInfo.isLink"/>
         </b-col>
       </b-row>
     </b-container>
