@@ -7,7 +7,7 @@
                 <b-nav-item href="/diplomas">Formation</b-nav-item>
                 <b-nav-item href="/certifications">Certifications</b-nav-item>
                 <b-nav-item href="/activities">Activités annexes</b-nav-item>
-                <b-nav-item href="/expertises">Domaines d'expertise</b-nav-item>
+                <b-nav-item href="/expertises">Expertise</b-nav-item>
                 <b-nav-item href="/skills">Compétences</b-nav-item>
                 <b-nav-item href="/tools">Outils et méthodes</b-nav-item>
                 <b-nav-item href="/languages">Langues</b-nav-item>
