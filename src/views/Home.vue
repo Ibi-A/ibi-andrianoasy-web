@@ -1,5 +1,4 @@
 <template>
-  <div>
     <b-container>
       <b-row align-v="center" align-h="center">
         <b-col xl="3"><b-img :src="aboutMe.profilePictureUrl" rounded="circle" fluid-grow/></b-col>
@@ -16,7 +15,6 @@
         </b-col>
       </b-row>
     </b-container>
-  </div>
 </template>
 
 <script>

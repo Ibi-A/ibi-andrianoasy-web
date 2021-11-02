@@ -3,6 +3,7 @@ import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import Diplomas from '../views/Diplomas.vue'
 import ProfessionalExperience from '../views/ProfessionalExperience.vue'
+import Certifications from '../views/Certifications.vue'
 
 Vue.use(VueRouter)
 
@@ -21,6 +22,11 @@ const routes = [
     path: '/experience',
     name: 'Experience',
     component: ProfessionalExperience
+  },
+  {
+    path: '/certifications',
+    name: 'Certifications',
+    component: Certifications
   },
   {
     path: '/about',

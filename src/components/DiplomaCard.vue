@@ -10,6 +10,9 @@
         <template #footer>
             {{ school }} ({{ period }})
         </template>
+        <b-card-text>
+            {{ description }}
+        </b-card-text>
     </b-card>
 </template>
 
@@ -22,6 +25,7 @@ export default {
         logoSrc: String,
         school: String,
         period: String,
+        description: String,
     }
 }
 </script>

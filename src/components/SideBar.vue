@@ -5,7 +5,7 @@
                 <b-nav-item active href="/">À propos de moi</b-nav-item>
                 <b-nav-item href="/experience">Expérience professionnelle</b-nav-item>
                 <b-nav-item href="/diplomas">Formation</b-nav-item>
-                <b-nav-item>Certifications</b-nav-item>
+                <b-nav-item href="/certifications">Certifications</b-nav-item>
                 <b-nav-item>Activités annexes</b-nav-item>
                 <b-nav-item>Domaines d'expertise</b-nav-item>
                 <b-nav-item>Compétences techniques</b-nav-item>
