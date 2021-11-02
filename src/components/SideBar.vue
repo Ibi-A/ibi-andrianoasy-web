@@ -4,7 +4,7 @@
             <b-nav vertical>
                 <b-nav-item active href="/">À propos de moi</b-nav-item>
                 <b-nav-item href="/about">Expérience professionnelle</b-nav-item>
-                <b-nav-item>Formation</b-nav-item>
+                <b-nav-item href="/diplomas">Formation</b-nav-item>
                 <b-nav-item>Certifications</b-nav-item>
                 <b-nav-item>Activités annexes</b-nav-item>
                 <b-nav-item>Domaines d'expertise</b-nav-item>

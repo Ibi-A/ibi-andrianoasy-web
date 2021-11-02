@@ -31,7 +31,7 @@ export default {
   data() {
     return {
       aboutMe: AboutMe,
-      contact: Contact.values
+      contact: Contact.entries
     }
   }
 }
