@@ -6,7 +6,7 @@
                 <b-nav-item href="/experience">Expérience professionnelle</b-nav-item>
                 <b-nav-item href="/diplomas">Formation</b-nav-item>
                 <b-nav-item href="/certifications">Certifications</b-nav-item>
-                <b-nav-item>Activités annexes</b-nav-item>
+                <b-nav-item href="/activities">Activités annexes</b-nav-item>
                 <b-nav-item>Domaines d'expertise</b-nav-item>
                 <b-nav-item>Compétences techniques</b-nav-item>
                 <b-nav-item>Soft skills</b-nav-item>

@@ -4,6 +4,7 @@ import Home from '../views/Home.vue'
 import Diplomas from '../views/Diplomas.vue'
 import ProfessionalExperience from '../views/ProfessionalExperience.vue'
 import Certifications from '../views/Certifications.vue'
+import SideActivities from '../views/SideActivities.vue'
 
 Vue.use(VueRouter)
 
@@ -27,6 +28,11 @@ const routes = [
     path: '/certifications',
     name: 'Certifications',
     component: Certifications
+  },
+  {
+    path: '/activities',
+    name: 'Activities',
+    component: SideActivities
   },
   {
     path: '/about',
