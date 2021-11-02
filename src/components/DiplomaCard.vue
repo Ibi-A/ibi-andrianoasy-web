@@ -1,15 +1,14 @@
 <template>
     <b-card
         :title="type"
-        :img-src="pictureUrl"
+        :img-src="logoSrc"
         :sub-title="title"
         :img-alt="school"
         img-top
-        border-variant="light"
         class="mb-3"
     >
         <template #footer>
-            {{ school }} ({{ year }})
+            {{ school }} ({{ period }})
         </template>
     </b-card>
 </template>
@@ -20,9 +19,9 @@ export default {
     props: {
         type: String,
         title: String,
-        pictureUrl: String,
+        logoSrc: String,
         school: String,
-        year: String,
+        period: String,
     }
 }
 </script>
