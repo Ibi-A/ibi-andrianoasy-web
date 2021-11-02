@@ -7,6 +7,7 @@ import Certifications from '../views/Certifications.vue'
 import SideActivities from '../views/SideActivities.vue'
 import Skills from '../views/Skills.vue'
 import Expertises from '../views/Expertises.vue'
+import Tools from '../views/Tools.vue'
 
 Vue.use(VueRouter)
 
@@ -45,6 +46,11 @@ const routes = [
     path: '/expertises',
     name: 'Expertises',
     component: Expertises
+  },
+  {
+    path: '/tools',
+    name: 'Tools',
+    component: Tools
   },
   {
     path: '/about',

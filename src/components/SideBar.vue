@@ -9,7 +9,7 @@
                 <b-nav-item href="/activities">Activités annexes</b-nav-item>
                 <b-nav-item href="/expertises">Domaines d'expertise</b-nav-item>
                 <b-nav-item href="/skills">Compétences</b-nav-item>
-                <b-nav-item>Outils et méthodes</b-nav-item>
+                <b-nav-item href="/tools">Outils et méthodes</b-nav-item>
             </b-nav>
         </b-sidebar>
     </div>
