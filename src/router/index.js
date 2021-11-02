@@ -6,6 +6,7 @@ import ProfessionalExperience from '../views/ProfessionalExperience.vue'
 import Certifications from '../views/Certifications.vue'
 import SideActivities from '../views/SideActivities.vue'
 import Skills from '../views/Skills.vue'
+import Expertises from '../views/Expertises.vue'
 
 Vue.use(VueRouter)
 
@@ -39,6 +40,11 @@ const routes = [
     path: '/skills',
     name: 'Skills',
     component: Skills
+  },
+  {
+    path: '/expertises',
+    name: 'Expertises',
+    component: Expertises
   },
   {
     path: '/about',
