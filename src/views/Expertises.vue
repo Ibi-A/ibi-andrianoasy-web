@@ -3,7 +3,8 @@
     <h1>Expertise</h1>
     <hr/>
     <b-card-group deck>
-      <expertise-card v-for="expertise in expertises" :key="expertise" :title="expertise.title" :expertises="expertise.expertises"/>
+      <expertise-card v-for="expertise in expertises" :key="expertise" :title="expertise.title" :expertises="expertise.expertises" :id="expertise.id"/>
+
     </b-card-group>
   </div>
 </template>
