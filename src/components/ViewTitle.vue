@@ -1,7 +1,6 @@
 <template>
     <div>
-        <h1>{{ title }}</h1>
-        <hr/>
+        <h1 class="mb-5">{{ title }}</h1>
     </div>
 </template>
 
