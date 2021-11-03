@@ -7,6 +7,7 @@
         :key="tool"
         :title="tool.title"
         :tools="tool.tools"
+        :id="tools.id"
       />
     </b-card-group>
   </div>
