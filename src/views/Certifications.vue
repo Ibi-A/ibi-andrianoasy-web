@@ -1,7 +1,6 @@
 <template>
   <div>
-    <h1>Certifications</h1>
-    <hr/>
+    <view-title title="Certifications"/>
     <b-card-group deck>
       <diploma-card 
         v-for="certification in certifications" 
@@ -20,10 +19,12 @@
 <script>
 import Certifications from '../data/certifications.json'
 import DiplomaCard from '../components/DiplomaCard.vue'
+import ViewTitle from '../components/ViewTitle.vue'
 
 export default {
   components: {
     DiplomaCard,
+    ViewTitle,
   },
   data() {
     return {

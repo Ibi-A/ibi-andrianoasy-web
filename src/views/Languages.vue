@@ -1,7 +1,6 @@
 <template>
   <div>
-    <h1>Langues</h1>
-    <hr/>
+    <view-title title="Langues"/>
     <b-card-group deck>
       <language-card
         v-for="language in languages"
@@ -17,10 +16,12 @@
 <script>
 import Languages from '../data/languages.json'
 import LanguageCard from '../components/LanguageCard.vue'
+import ViewTitle from '../components/ViewTitle.vue'
 
 export default {
   components: {
     LanguageCard,
+    ViewTitle,
   },
   data() {
     return {

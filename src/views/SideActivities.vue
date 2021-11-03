@@ -1,7 +1,6 @@
 <template>
   <div>
-    <h1>Activités annexes</h1>
-    <hr/>
+    <view-title title="Activités annexes"/>
     <b-card-group deck>
       <professional-experience-card
         v-for="e in sideActivities"
@@ -21,10 +20,12 @@
 <script>
 import SideActivities from '../data/sideActivities.json'
 import ProfessionalExperienceCard from '../components/ProfessionalExperienceCard.vue'
+import ViewTitle from '../components/ViewTitle.vue'
 
 export default {
   components: {
     ProfessionalExperienceCard,
+    ViewTitle,
   },
   data() {
     return {

@@ -1,7 +1,6 @@
 <template>
   <div>
-    <h1>Expérience professionnelle</h1>
-    <hr/>
+    <view-title title="Expérience professionnelle"/>
     <b-card-group deck>
       <professional-experience-card
         v-for="e in professionalExperience"
@@ -21,10 +20,12 @@
 <script>
 import ProfessionalExperience from '../data/professionalExperience.json'
 import ProfessionalExperienceCard from '../components/ProfessionalExperienceCard.vue'
+import ViewTitle from '../components/ViewTitle.vue'
 
 export default {
   components: {
     ProfessionalExperienceCard,
+    ViewTitle,
   },
   data() {
     return {

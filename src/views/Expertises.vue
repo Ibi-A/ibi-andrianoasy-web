@@ -1,7 +1,6 @@
 <template>
   <div>
-    <h1>Expertise</h1>
-    <hr/>
+    <view-title title="Expertise"/>
     <b-card-group deck>
       <expertise-card
         v-for="expertise in expertises"
@@ -17,10 +16,12 @@
 <script>
 import Expertises from '../data/expertises.json'
 import ExpertiseCard from '../components/ExpertiseCard.vue'
+import ViewTitle from '../components/ViewTitle.vue'
 
 export default {
   components: {
     ExpertiseCard,
+    ViewTitle,
   },
   data() {
     return {

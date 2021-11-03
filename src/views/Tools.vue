@@ -1,7 +1,6 @@
 <template>
   <div>
-    <h1>Outils</h1>
-    <hr/>
+    <view-title title="Outils"/>
     <b-card-group deck>
       <tool-card
         v-for="tool in tools"
@@ -16,10 +15,12 @@
 <script>
 import Tools from '../data/tools.json'
 import ToolCard from '../components/ToolCard.vue'
+import ViewTitle from '../components/ViewTitle.vue'
 
 export default {
   components: {
     ToolCard,
+    ViewTitle,
   },
   data() {
     return {
