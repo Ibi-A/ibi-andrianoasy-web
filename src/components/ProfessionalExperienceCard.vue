@@ -26,22 +26,28 @@
             </b-badge>
         </template>
 
-        <template #title>
-            Test
-        </template>
-
         <b-list-group>
-            <b-list-group-item v-for="activity in activities" :key="activity">
-                {{ activity }}
-            </b-list-group-item>
+            <collapsable-list-group-item
+                v-for="a in activities"
+                :key="a"
+                :title="a.title"
+                :description="a.description"
+                :parent-id="id"
+                :item-id="a.id"
+            />
         </b-list-group>
     </b-card>
 </template>
 
 <script lang="ts">
+import CollapsableListGroupItem from './CollapsableListGroupItem.vue'
 
 export default {
+    components: {
+        CollapsableListGroupItem
+    },
     props: {
+        id: String,
         company: String,
         industry: String,
         logoSrc: String,

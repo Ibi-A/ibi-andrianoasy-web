@@ -5,6 +5,7 @@
       <professional-experience-card
         v-for="e in professionalExperience"
         :key="e.id"
+        :id="e.id"
         :company="e.company"
         :industry="e.industry" 
         :logo-src="e.logoSrc"
