@@ -3,7 +3,12 @@
     <h1>Compétences</h1>
     <hr/>
     <b-card-group deck>
-      <skill-card v-for="skill in skills" :key="skill" :title="skill.title" :skills="skill.skills"/>
+      <skill-card
+        v-for="skill in skills"
+        :key="skill"
+        :title="skill.title"
+        :skills="skill.skills"
+      />
     </b-card-group>
   </div>
 </template>

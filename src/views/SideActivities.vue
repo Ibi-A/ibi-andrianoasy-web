@@ -3,7 +3,17 @@
     <h1>Activités annexes</h1>
     <hr/>
     <b-card-group deck>
-      <professional-experience-card v-for="e in sideActivities" :key="e.id" :company="e.company" :industry="e.industry" :logo-src="e.logoSrc" :job-title="e.jobTitle" :period="e.period" :duration="e.duration" :activities="e.activities"/>
+      <professional-experience-card
+        v-for="e in sideActivities"
+        :key="e.id"
+        :company="e.company"
+        :industry="e.industry"
+        :logo-src="e.logoSrc"
+        :job-title="e.jobTitle"
+        :period="e.period"
+        :duration="e.duration"
+        :activities="e.activities"
+      />
     </b-card-group>
   </div>
 </template>

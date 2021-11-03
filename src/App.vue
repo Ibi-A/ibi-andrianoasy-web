@@ -4,7 +4,7 @@
     <b-container>
       <router-view/>
     </b-container>
-<side-bar/>
+    <side-bar/>
   </div>
 </template>
 
