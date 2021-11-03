@@ -26,7 +26,7 @@
             </b-badge>
         </template>
 
-        <b-list-group>
+        <b-list-group class="mt-4">
             <collapsable-list-group-item
                 v-for="a in activities"
                 :key="a"

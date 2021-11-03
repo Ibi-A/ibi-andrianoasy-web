@@ -3,7 +3,7 @@
         :title="title"
         class="mb-3"
     >
-        <b-list-group>
+        <b-list-group class="mt-4">
             <collapsable-list-group-item
                 v-for="skill in skills"
                 :key="skill"
