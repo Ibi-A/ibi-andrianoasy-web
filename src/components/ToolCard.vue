@@ -4,7 +4,10 @@
         class="mb-3"
     >
         <b-list-group>
-            <b-list-group-item v-for="tool in tools" :key="tool">
+            <b-list-group-item 
+                v-for="tool in tools" 
+                :key="tool"
+            >
                 {{ tool }}
             </b-list-group-item>
         </b-list-group>

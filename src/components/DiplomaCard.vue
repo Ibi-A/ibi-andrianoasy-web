@@ -4,8 +4,8 @@
         :img-src="logoSrc"
         :sub-title="title"
         :img-alt="school"
-        img-top
         class="mb-3"
+        img-top
     >
         <template #footer>
             {{ school }} ({{ period }})

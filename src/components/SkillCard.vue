@@ -4,7 +4,10 @@
         class="mb-3"
     >
         <b-list-group>
-            <b-list-group-item v-for="skill in skills" :key="skill">
+            <b-list-group-item
+                v-for="skill in skills"
+                :key="skill"
+            >
                 {{ skill }}
             </b-list-group-item>
         </b-list-group>

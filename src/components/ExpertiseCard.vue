@@ -4,7 +4,9 @@
         class="mb-3"
     >
         <b-list-group>
-            <collapsable-list-group-item v-for="expertise in expertises" :key="expertise.id"
+            <collapsable-list-group-item
+                v-for="expertise in expertises"
+                :key="expertise.id"
                 :title="expertise.title"
                 :description="expertise.description"
                 :parent-id="id"

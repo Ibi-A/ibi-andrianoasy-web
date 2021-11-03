@@ -4,8 +4,8 @@
         :img-src="imgSrc"
         :sub-title="level"
         :img-alt="name"
-        img-top
         class="mb-3"
+        img-top
     >
     </b-card>
 </template>
