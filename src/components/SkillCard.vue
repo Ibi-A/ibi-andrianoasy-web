@@ -4,20 +4,27 @@
         class="mb-3"
     >
         <b-list-group>
-            <b-list-group-item
+            <collapsable-list-group-item
                 v-for="skill in skills"
                 :key="skill"
-            >
-                {{ skill }}
-            </b-list-group-item>
+                :title="skill.title"
+                :description="skill.description"
+                :parent-id="id"
+                :item-id="skill.id"
+            />
         </b-list-group>
     </b-card>
 </template>
 
 <script lang="ts">
+import CollapsableListGroupItem from './CollapsableListGroupItem.vue'
 
 export default {
+    components: {
+        CollapsableListGroupItem,
+    },
     props: {
+        id: String,
         title: String,
         skills: [],
     }

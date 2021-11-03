@@ -7,6 +7,7 @@
         :key="skill"
         :title="skill.title"
         :skills="skill.skills"
+        :id="skill.id"
       />
     </b-card-group>
   </div>
