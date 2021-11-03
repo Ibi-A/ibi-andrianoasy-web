@@ -4,7 +4,8 @@
     <b-card-group deck>
       <diploma-card 
         v-for="certification in certifications" 
-        :key="certification.id" 
+        :key="certification.id"
+        :id="certification.id" 
         :type="certification.type" 
         :title="certification.title" 
         :logo-src="certification.logoSrc" 

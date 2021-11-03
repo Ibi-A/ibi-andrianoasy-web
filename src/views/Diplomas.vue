@@ -5,6 +5,7 @@
       <diploma-card
         v-for="diploma in diplomas"
         :key="diploma.id"
+        :id="diploma.id"
         :type="diploma.type"
         :title="diploma.title"
         :logo-src="diploma.logoSrc" 

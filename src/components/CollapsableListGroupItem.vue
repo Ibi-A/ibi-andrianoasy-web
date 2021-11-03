@@ -7,6 +7,7 @@
             v-if="description != null"
             class="mr-1"
             icon="info-circle-fill"
+            variant="primary"
         />
         {{ title }}
         <b-collapse
